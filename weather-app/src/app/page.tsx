@@ -2,7 +2,8 @@
 import { useState } from 'react';
 import axios, { AxiosError } from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
-import { WeatherData } from '@/types/weather';
+// import { WeatherData } from '@/types/weather';
+import { WeatherData } from '../types/weather'
 
 const WeatherApp = () => {
   const [city, setCity] = useState<string>('');
